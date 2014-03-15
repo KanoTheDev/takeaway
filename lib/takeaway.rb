@@ -22,12 +22,12 @@ class Takeaway
   end
 
   def send_text(text)
-    account_sid = 'AC965151dcbe7db4009698c52c423e1d60'
-    auth_token = 'e2d56b7f3fe8edf7c99fc766377c001b'
+    account_sid = 'sdfsdfsdfsdfsdfsdfsdfsdfsdf' #replace with new
+    auth_token = 'sdfsdfsdfsdfsdfsdfsdfsdf'     #replace with new
     @client = Twilio::REST::Client.new account_sid, auth_token
     @client.account.messages.create(
-      :from => '+441792720314',
-      :to => '+447595666228',
+      :from => '+4475******', #replace with new
+      :to => '+4475******',   #replace with new
       :body => text
     )
   end
