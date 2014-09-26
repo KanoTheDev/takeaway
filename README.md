@@ -1,3 +1,4 @@
+[![Code Climate](https://codeclimate.com/github/KanoTheDev/takeaway/badges/gpa.svg)](https://codeclimate.com/github/KanoTheDev/takeaway)
 ### Rubyist test. Week 4 test
 
 Write a class takeaway and implement the following functionality:
